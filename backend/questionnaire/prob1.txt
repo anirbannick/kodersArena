@@ -1,0 +1,17 @@
+===============
+  Linux Rocks
+===============
+
+Write to program to input a number 'n', where 1<= n <=20 and print 'linux rocks' n times.
+
+Sample Input and Output ::
+
+INPUT:
+2
+
+OUTPUT:
+linux rocks
+linux rocks 
+
+NOTE: JAVA coders should use 'public class Main', otherwise their codes WILL NOT COMPILE. Use the exact phrase.
+

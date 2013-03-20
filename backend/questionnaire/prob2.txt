@@ -1,0 +1,23 @@
+==============
+   Sum Me
+==============
+
+Enter test case number 'n' and  then enter 2 two nos. per test case as input.
+Output the sum of each test case.
+
+Constraints :
+1<= n <=20
+
+each number is between -1000 to 1000
+
+INPUT:
+3
+1 3
+2 5
+3 5
+
+OUTPUT:
+4
+7
+8
+
