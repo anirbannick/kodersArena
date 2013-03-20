@@ -17,7 +17,7 @@ noOfEasy, noOfMed, noOfHard = 0, 0, 0
 ptsEasy, ptsMed, ptsHard = 0, 0, 0
 noOfInThreads, noOfOutThreads = 0, 0
 listofEasy,listofMedium, listofHard= [],[],[]
-usrpath = '/usr/local/codecracker'
+usrpath = '/usr/local/kodersarena'
 
 def readConfigFile():
      """Reads config file and sets values for MySql vars & no. of probs and their respective points"""
@@ -27,7 +27,7 @@ def readConfigFile():
      global noOfEasy, noOfMed, noOfHard , listofEasy, listofMedium, listofHard
      global ptsEasy, ptsMed, ptsHard
      global noOfInThreads, noOfOutThreads
-     f = file('%s/codecracker.conf' % usrpath, 'r')
+     f = file('%s/kodersarena.conf' % usrpath, 'r')
      lines = f.readlines()
      f.close()
      for line in lines:
@@ -290,7 +290,7 @@ def Processor(threadNum):
                     print 'here'
                     print file_path 
                     for line in fileinput.FileInput(tempfile_path,inplace=1):
-                         line = line.replace("Codecracker",replace_text)
+                         line = line.replace("CodeCracker",replace_text)
                          print line
 
                # Remove previous object file.
