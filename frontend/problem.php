@@ -5,7 +5,7 @@ $t=time();
 
 $probid=$_GET['probid'];
 
-$prob_filename="/usr/local/codecracker/questionnaire/prob".$probid.".txt";
+$prob_filename="/usr/local/kodersarena/questionnaire/prob".$probid.".txt";
 $prob_statement="";
 if(file_exists($prob_filename))
 {
